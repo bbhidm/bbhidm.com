@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    }
+    body{
+        background: hsl(0, 63%, 25%);
+        box-shadow: #6e0808;
+    
+    }
+    
+    .top-header{
+        font-size: 18px;
+        color: white;
+        background: black;
+        padding-left: 5px;
+        margin-top: 0;
+    
+    }
+    .news-list{
+        font-size: 20px;
+        font-weight: 300;
+        background: blue;
+        padding: 5px;
+        border: 1px solod deeppink;
+    }
+    .headquota{
+        font-size: 18px;
+        padding: 3px;font-family: 'Times New Roman',
+         Times, serif;
+    }
+    
+    
+    .header{
+        min-height: 100vh;
+        width: 100%;
+        
+        background: #320606;
+        background-position: center;
+        position: relative;
+        background-size: cover;
+    
+        background-image: url(Pictures/bbhidm\ banner.jpg);
+        
+        background-repeat: no-repeat;
+        padding-top: -20px;
+        padding-left: -10px;
+    }
+    
+    .header h3{
+        color: rgb(64, 6, 6);
+        font-size: 40px;
+        text-transform: uppercase;
+        margin-right: 50PX;
+    }
+
+.nav-menu{
+    display: block;
+    float: right;
+    margin-right: 10px;
+
+}
+.nav-menu ul li{
+    font-size: 20px;
+    color: rgb(168, 228, 15);
+    list-style: none;
+
+}
+.nav-menu ul li a{
+    color: chartreuse;
+}
+
+.titlediscription{
+    width: 90%;
+    margin-left: 20PX;
+    
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-30%, -40%);
+}
+.titlediscription h1{
+    margin-bottom: 200px;
+    font-size: 60px;
+}
+.titledescription p{
+    margin-bottom:170PX;
+    font-size: 20px;
+    color:rgb(191, 26, 26);
+    right: 2%;
+}
+.academy h2{
+    text-align: center;
+    color: white;
+    background: rgb(18, 1, 1);
+}
+.academy ul li{
+    margin-left: 25px;
+    font-size: 20px;
+    color: chartreuse;
+    size: 30px;
+    line-height: 24px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+
+}
+.academy ul li a{
+    color: black;
+    font-size: 23px;
+    border-bottom: 5px;
+}
+.academy ul li a:hover{
+    color: white;
+    
+}
+
+
+@media(max-width:500px){
+    .titlediscription {
+        width: 90%;
+        color: rgb(205, 8, 41);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .titlediscription h1{
+        font-size: 20px;
+        margin-bottom: 180px;
+        color: rgb(55, 5, 5);
+    
+    }
+    .titlediscription P{
+        font-size: 18px;
+        margin-bottom: 100px;
+        color: rgb(15, 9, 0);
+    
+    }
+}

@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    }
+    body{
+        background: hsl(0, 63%, 25%);
+        box-shadow: #6e0808;
+    
+    }
+    
+    .top-header{
+        font-size: 18px;
+        color: white;
+        background: black;
+        padding-left: 5px;
+        margin-top: 0;
+    
+    }
+    .news-list{
+        font-size: 20px;
+        font-weight: 300;
+        background: blue;
+        padding: 5px;
+        border: 1px solod deeppink;
+    }
+    .headquota{
+        font-size: 18px;
+        padding: 3px;font-family: 'Times New Roman',
+         Times, serif;
+    }
+    
+    
+    .header{
+        min-height: 100vh;
+        width: 100%;
+        
+        background: #320606;
+        background-position: center;
+        position: relative;
+        background-size: cover;
+    
+        background-image: url(Pictures/bbhidm\ banner.jpg);
+        
+        background-repeat: no-repeat;
+        padding-top: -20px;
+        padding-left: -10px;
+    }
+    
+    nav{
+        display: flex;
+        padding: 3% 5%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav h3{
+        color: rgb(64, 6, 6);
+        font-size: 40px;
+        text-transform: uppercase;
+        margin-right: 50PX;
+    }
+
+ 
+
+
+    
+    .nav-menu ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0px 12px;
+        position: relative;
+        color: whitesmoke;
+    }
+    .nav-menu ul li a{
+        text-decoration: none;
+        font-size: 14px;
+        text-transform: uppercase;
+        
+         
+    }
+    .nav-menu ul li::after{
+        content: '';
+        width: 0px;
+        height: 5px;
+        background:red;
+        display: block;
+        margin: auto;
+        position: absolute;
+        bottom: -5px;
+        transition: 0.5s;
+    
+    }
+    .nav-menu ul li:hover::after{
+        width: 100%;
+    }
+    
+    .titlediscription{
+        width: 90%;
+        margin-left: 20PX;
+        color: #360211;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-30%, -40%);
+    }
+    .titlediscription h1{
+        margin-bottom: 200px;
+        font-size: 60px;
+
+    }
+    .titledescription p{
+        margin-bottom:170PX;
+        font-size: 15px;
+        color:white;
+        right: 2%;
+    }
+    
+
+
+     @media(max-width:500px){
+        .titlediscription {
+            width: 90%;
+            color: rgb(205, 8, 41);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .titlediscription h1{
+            font-size: 20px;
+            margin-right: 80px;
+            margin-bottom: 180px;
+            color: rgb(55, 5, 5);
+        
+        }
+        .titlediscription P{
+            font-size: 18px;
+            margin-bottom: 100px;
+            color: rgb(26, 0, 121);
+        
+        }
+        
+        .nav-menu{
+            position: absolute;
+            background: rgb(red, green, blue);
+            height: 100vh;
+            width: 300px;
+            top: 0;
+            right:0px;
+            text-align: right;
+            z-index: 999;
+            
+            transition: 1s;
+        }
+    
+        .nav-menu ul li {
+            display: block;
+            margin: 10px 0;
+            
+            
+        }
+        .nav-menu ul li a{
+            color: rgb(185, 235, 5);
+            font-weight: 500;
+        }
+        .header{
+        width: 100%;
+
+
+        }
+        .nav-menu ul{
+           margin-left: 10px;
+            padding: 10px;
+            color: #200c0c;
+        }
+        nav h3{
+            font-size: 22px;
+        }
+        .nav-menu ul li::after{
+            content: '';
+            width: 0px;
+            height: 5px;
+            
+            display: block;
+            margin: auto;
+            position: absolute;
+            bottom: -5px;
+            transition: 0.5s;
+        }
+        .nav-menu ul li a:hover::after{
+            width: 100%;
+            color: #d11f1f;
+        }
+        
+    }

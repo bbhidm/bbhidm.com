@@ -1,0 +1,81 @@
+
+*{
+    padding: 0;
+    
+}
+
+
+
+.gallery1{
+    font-size: 30px;
+    font-weight: 400;
+ background: blue;
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid blue;
+}
+.width-25{
+    width:25%;
+    float: left;
+  
+}
+.gallery-img{
+    width:auto;
+    height: 250px;
+    
+}
+.gallary2{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(65, 16, 228);
+    margin-top: 15px;
+    padding: 5px;
+    
+    border: 1px solid blue;   }
+
+.gallary1 h2{
+    background: slategray;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 5px;
+    font-size: 30px;    
+}
+marquee{
+    font-size: 18px;
+    background: darkgray;
+    margin-bottom: 5px;
+
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(79, 7, 7);
+    background: 15px 10px rgb(29, 120, 194);
+}
+.home ul{
+    font-size: 25px;
+    border-bottom: 2px;
+    color: rgb(2, 2, 28);
+    background: 20px 10px rgb(89, 39, 188);
+    
+}
+.home ul li a{
+    font-size: 30px;
+    color: rgb(218, 25, 25);
+    border-bottom: 5px;
+
+}
+.home ul li a:hover{
+    background: white;
+    color: #020400;
+
+}
+.gallary3{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(65, 16, 228);
+    margin-top: 15px;
+    padding: 5px;
+    
+    border: 1px solid blue;   }
+    
